@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <head>
+    <script src="http://trailers.apple.com/js/utils.js"/>
+    <script src="http://trailers.apple.com/js/navbarHandler.js"/>
+  </head>
+  <body>
+    <viewWithNavigationBar id="nav" onNavigate="loadMenuPage(event)">
+      <navigation currentIndex="0">
+        <navigationItem id="Libraries">
+          <title>Libraries</title>
+          <url>http://trailers.apple.com/index.xml</url>
+        </navigationItem>
+        <navigationItem id="Search">
+          <title>Search</title>
+          <url>http://trailers.apple.com/Search/search.xml</url>
+        </navigationItem>
+        <navigationItem id="Settings">
+          <title>Settings</title>
+          <url>http://trailers.apple.com/settings.xml</url>
+        </navigationItem>
+      </navigation>
+    </viewWithNavigationBar>
+  </body>
+</atv>
